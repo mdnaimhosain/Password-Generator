@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="container">
+    <div class="card">
+       <h1>Password Generator</h1>
+       <div class="passwordbox">
+        <input type="text" id="generatedpassword"readonly>
+        <button id="copybutton">Copy</button>
+       </div>
+       <div class="length-section">
+        <label>Chracter Length</label>
+        <span id="charavtervalue">10</span>
+        <input type="range" id="lengthSlider" min="4" max="20" value="10">
+       </div>
+       <div class="checkboxgroupe">
+       <input type="checkbox" id="uppercase" checked>
+       <label for="uppercase">include uppercase letters</label>
+</div>
+<div class="checkboxgroupe1">
+   <input type="checkbox" id="lowercase" checked>
+       <label for="lowercase">include lowercase letters</label>
+</div>
+<div class="checkboxgroupe2">
+   <input type="checkbox" id="number" checked>
+   <label for="number">include number</label>
+   </div>
+   <div class="checkboxgroupe3">
+   <input type="checkbox" id="symbols">
+   <label for="symbols">include symbols</label>
+   </div>
+   <div class="stringthbox">
+    <span>STRENGTH:</span>
+    <span id="stringthtext">WEAK</span>
+
+   </div>
+   <button id="genaratebutton">GENERATE</button>
+</div>
+</div> 
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

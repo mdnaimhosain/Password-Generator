@@ -1,0 +1,111 @@
+body{
+    background-color: #0B1029;
+}
+h1{
+    color: white;
+}
+
+#copybutton{
+    cursor: pointer;
+    font-size: large;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.card{
+   height: 400px;
+    width: 400px;
+    background-color: #0B1040;
+    border-radius: 9px;
+  
+}
+#generatedpassword{
+    padding: 3px;
+    
+    
+  
+}
+.length-section{
+     display: flex;
+    align-items: center;
+    gap: 23px;
+    margin: 10px;
+    color: white;
+    font-size: larger;
+    
+}
+.checkboxgroupe{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+    color: white;
+    font-size: larger;
+}
+.checkboxgroupe1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+    color: white;
+    font-size: larger;
+}
+.checkboxgroupe2{
+   display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin: 10px;
+    color: white;
+    font-size: larger;
+}
+.checkboxgroupe3{
+   display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin: 10px;
+    color: white;
+    font-size: larger;
+}
+.stringthbox{
+   display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin: 10px;
+    color: white;
+    font-size: larger; 
+}
+.stringthbox{
+  width: 350px;
+  height: 45px;
+  margin-top: 15px;
+
+  background: #1c2a3a;   /* dark bar */
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 15px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#genaratebutton{
+ width: 360px;
+  height: 35px;
+  margin-top: 15px; 
+ font-size: larger;
+ background-color: rgb(16, 214, 49); 
+ cursor: pointer;
+ color: white;
+}
